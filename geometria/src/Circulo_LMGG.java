@@ -6,6 +6,9 @@ public class Circulo_LMGG extends FiguraGeometrica_LMGG {
 	
 	public Circulo_LMGG(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r<0) { 
+			r=r*(-1);
+		}
 		radio = r;
 	}
 
