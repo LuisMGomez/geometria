@@ -19,5 +19,9 @@ public abstract class FiguraGeometrica_LMGG {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
+	
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 
 }
